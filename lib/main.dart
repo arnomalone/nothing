@@ -11,10 +11,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
-        appBar: AppBar(
-          backgroundColor: Colors.blueGrey[900],
-          title: Text('Nothing'),
-        ),
         body: Center(
           child: Image(
             image: AssetImage('images/banana.jpg'),
