@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
+          backgroundColor: Colors.blueGrey[900],
           title: Text('Nothing'),
         ),
         body: Center(
